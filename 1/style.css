@@ -1,0 +1,45 @@
+.page {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f4f3;
+  color: #f8f4f3;
+}
+
+.pageForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  background-color: #2a292a;
+  border-radius: 5px;
+}
+
+.pageForm__title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.pageForm__input {
+  outline: none;
+  padding: 5px 5px;
+  font-size: 20px;
+}
+
+.pageForm__button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f8f4f3;
+  color: #2a292a;
+}
+
+#pageForm__text {
+    display: none;
+    color: #228b22;
+}
