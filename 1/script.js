@@ -1,11 +1,10 @@
 const pageForm = document.querySelector("#pageForm");
 const pageForm__input = document.querySelector(".pageForm__input");
-
 const pageForm__text = document.getElementById("pageForm__text");
 const text__phone = document.getElementById("text__phone");
 
 /**
- * Checking "+" and "+7" number in input
+ * Check "+" and "+7" number in input
  * @param {InputEvent} input
  */
 function inputted(input) {
@@ -16,7 +15,7 @@ function inputted(input) {
 }
 
 /**
- * Sending form
+ * Send form
  * @param {Event} e
  */
 function sendForm(e) {
